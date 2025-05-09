@@ -1,0 +1,270 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f4f6f5;
+    margin: 0;
+    padding: 20px;
+    color: #000;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    padding-bottom: 0px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 15px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-header p {
+    margin: 4px 0 0;
+    color: #555;
+  }
+  
+  .card img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #4169e1;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .bottom-nav a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .bottom-nav a.active {
+    color: #4169e1;
+    font-weight: bold;
+  }
+  .badge {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 50%;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    line-height: 32px;
+    font-size: 16px;
+    margin-left: auto;
+  }
+  
+  .badge-orange {
+    background-color: #FFA500;
+  }
+  
+  .badge-green {
+    background-color: #2E8B57;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  }
+  
+  .footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    color: #888;
+  }
+  
+  .footer-item i {
+    font-size: 18px;
+    margin-bottom: 4px;
+  }
+  
+  .footer-item.active {
+    color: #3366ff;
+  }
+  body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .back-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  
+  .muscle-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .profile {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    margin-top: 16px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  
+  .profile-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .label {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+  }
+  
+  .value {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .edit {
+    font-size: 14px;
+    color: #888;
+    margin-left: 4px;
+  }
+  
+  .exercise-section {
+    margin-top: 24px;
+  }
+  
+  .exercise-section h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .exercise-card {
+    background: #fff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+  }
+  
+  .exercise-card img {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+  }
+  
+  .exercise-info h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .exercise-info p {
+    margin: 4px 0 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .footer {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    padding: 16px 0;
+    text-align: center;
+    border-top: 1px solid #ddd;
+  }
+  
+  .start-btn {
+    background-color: #2d4eff;
+    color: #fff;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .footer-actions {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+  }
+  
+  .footer-icon {
+    background: none;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
